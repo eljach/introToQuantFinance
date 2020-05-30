@@ -20,6 +20,9 @@ class CoinToss:
         plt.show()
 
     def simulate(self):
+        """
+            Geometric random walk simulator
+        """
         self.simulated_values = list()
         for i in range(self.simulations):
             if random.uniform(0,1) < 0.5:
